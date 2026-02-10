@@ -1,67 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Character encoding for consistent text rendering -->
-  <meta charset="UTF-8">
-
-  <!-- Page title shown in browser tab and announced by screen readers -->
-  <title>Don Norman – CV</title>
+    <meta charset="UTF-8">
+    <title>CS-555 HCI - Interaction Models</title>
 </head>
 <body>
 
-  <!-- Page header: identifies the page -->
-  <header>
-    <h1>Curriculum Vitae</h1>
-  </header>
+<h1>Interaction Models & Styles</h1>
+<p>This page covers key interaction frameworks and styles from HCI theory, based on Dix et al., <em>Human–Computer Interaction</em>.</p>
 
-  <!-- Primary navigation: consistent across all pages -->
-  <nav aria-label="Primary navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="interaction.html" aria-current="page">Interaction Styles</a></li>
+    <li><a href="lab.html">Lab Practice</a></li>
+</ul>
 
-      <!-- Current page is indicated using aria-current -->
-      <li><a href="cv.html" aria-current="page">CV</a></li>
+<hr>
 
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="analysis.html">Interaction Analysis</a></li>
-      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
-      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+<h2 id="models">Models of Interaction (Chapter 3.2)</h2>
+<p>Interaction involves at least two participants: the user and the system. The interface must effectively translate between them to allow the interaction to be successful. The use of models of interaction can help us understand what is going on in the interaction and identify the likely root of difficulties.</p>
+<p><em>Reference: Dix et al., p. 124-125</em></p>
 
-    </ul>
-  </nav>
+<hr>
 
-  <!-- Main landmark: unique content of this page -->
-  <main>
+<h3>Norman's Execution–Evaluation Cycle (p. 125-127)</h3>
+<p>Norman’s model of interaction is perhaps the most influential in HCI. The user formulates a plan of action, which is then executed at the computer interface. When the plan has been executed, the user observes the computer interface to evaluate the result.</p>
+<p>The seven stages are:</p>
+<ol>
+    <li>Establishing the goal</li>
+    <li>Forming the intention</li>
+    <li>Specifying the action sequence</li>
+    <li>Executing the action</li>
+    <li>Perceiving the system state</li>
+    <li>Interpreting the system state</li>
+    <li>Evaluating the system state with respect to the goals and intentions</li>
+</ol>
+<p><strong>Gulf of Execution:</strong> The difference between the user’s formulation of the actions to reach the goal and the actions allowed by the system.</p>
+<p><strong>Gulf of Evaluation:</strong> The distance between the physical presentation of the system state and the expectation of the user.</p>
+<p><em>Reference: Dix et al., p. 125-127</em></p>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li>PhD in Psychology – University of Pennsylvania</li>
-        <li>BSc in Engineering – MIT</li>
-      </ul>
-    </section>
+<hr>
 
-    <section>
-      <h2>Work Experience</h2>
+<h3>Interaction Framework (p. 127-130)</h3>
+<p>An extension of Norman’s model includes the system explicitly and breaks interaction into four main components: the System, the User, the Input and the Output. Each component has its own language.</p>
+<p>There are four main translations involved:</p>
+<ul>
+    <li><strong>Articulation:</strong> User's task → Input language</li>
+    <li><strong>Performance:</strong> Input language → System operations</li>
+    <li><strong>Presentation:</strong> System state → Output</li>
+    <li><strong>Observation:</strong> Output → User's interpretation</li>
+</ul>
+<p>The framework helps judge the overall usability of an entire interactive system.</p>
+<p><em>Reference: Dix et al., p. 127-130</em></p>
 
-      <!-- Each role is grouped as a separate content unit -->
-      <article>
-        <h3>Professor of Cognitive Science</h3>
-        <p>University of California, San Diego</p>
-      </article>
+<hr>
 
-      <article>
-        <h3>Director, Design Lab</h3>
-        <p>Founder of the Nielsen Norman Group</p>
-      </article>
-    </section>
+<h2 id="styles">Interaction Styles (Chapter 3.5)</h2>
+<p>Interaction can be seen as a dialog between the computer and the user. The choice of interface style can have a profound effect on the nature of this dialog.</p>
 
-  </main>
+<h3>Command Line Interface (p. 137)</h3>
+<p>Provides a means of expressing instructions to the computer directly. Powerful and flexible but requires memorization of commands. Better for expert users than novices.</p>
 
-  <!-- Footer contains supplementary navigation and meta information -->
-  <footer>
-    <p><a href="index.html">Back to Home</a></p>
-  </footer>
+<h3>Menus (p. 137-138)</h3>
+<p>The set of options available to the user is displayed on the screen. Less demanding of the user, relying on recognition rather than recall. Options need to be meaningfully grouped.</p>
+
+<h3>WIMP Interface (p. 141)</h3>
+<p>Stands for Windows, Icons, Menus and Pointers. The default interface style for most interactive computer systems today (e.g., Microsoft Windows, MacOS).</p>
+
+<h3>Other Styles</h3>
+<ul>
+    <li><strong>Natural language:</strong> Using everyday language (p. 138-139)</li>
+    <li><strong>Form-fills:</strong> Resembles paper forms for data entry (p. 139-140)</li>
+    <li><strong>Spreadsheets:</strong> Grid of cells containing values or formulas (p. 140-141)</li>
+    <li><strong>Point-and-click:</strong> Single-click interactions, common in web browsers (p. 142)</li>
+    <li><strong>Three-dimensional interfaces:</strong> Using 3D effects and VR (p. 142-144)</li>
+</ul>
+<p><em>Reference: Dix et al., p. 136-144</em></p>
+
+<hr>
+
+<h2>Book Reference</h2>
+<p>Dix, A., Finlay, J., Abowd, G. D., & Beale, R. (2004). <em>Human–Computer Interaction</em> (3rd ed.). Pearson / Prentice Hall.</p>
+<p>© CS-555 HCI – Week 05 Submission | Saad Jamil</p>
 
 </body>
 </html>
