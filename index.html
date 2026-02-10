@@ -1,64 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Character encoding for proper text rendering -->
-  <meta charset="UTF-8">
-
-  <!-- Page title shown in browser tab and screen readers -->
-  <title>Don Norman – Home</title>
+    <meta charset="UTF-8">
+    <title>CS-555 HCI - Week 05</title>
 </head>
 <body>
 
-  <!-- Page header: identifies the site and its purpose -->
-  <header>
-    <h1>Don Norman</h1>
-    <p>Human–Computer Interaction Philosopher</p>
-  </header>
+<h1>HCI (CS-555) Week 05 Assignment</h1>
+<p>Student portfolio: semantic HTML + HCI concepts (Norman, GOMS, KLM)</p>
 
-  <!-- Primary navigation landmark for keyboard and screen reader users -->
-  <nav aria-label="Primary navigation">
-    <ul>
-      <!-- Current page is indicated using aria-current -->
-      <li>
-        <a href="index.html" aria-current="page">Home</a>
-      </li>
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#hci">What is HCI?</a></li>
+    <li><a href="#memory">Memory & Chunking</a></li>
+    <li><a href="#fitts">Fitts' Law</a></li>
+</ul>
 
-      <!-- Navigation links to other site sections -->
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="analysis.html">Interaction Analysis</a></li>
-      <li><a href="norman2klm.html">Norman–GOMS–KLM</a></li>
-      <li><a href="assignment01.html">Lab 01 Rules</a></li>
+<hr>
 
-    </ul>
-  </nav>
+<h2 id="home">About Me</h2>
+<p>I'm <strong>Saad Jamil</strong>. This is my Week 05 submission for CS-555. The goal is to demonstrate semantic HTML and explain HCI concepts from the course book.</p>
 
-  <!-- Main content landmark: unique content of this page -->
-  <main>
-    <section>
-      <!-- Section heading establishes content hierarchy -->
-      <h2>Biography</h2>
+<hr>
 
-      <!-- Informative image with alternative text for accessibility -->
-      <img src="norman.jpg" alt="Portrait of Don Norman">
+<h2 id="hci">What is HCI? (Page #3–4)</h2>
+<p>Human–computer interaction has roots in disciplines like ergonomics and human factors. It became a distinct field as computers became widespread.</p>
+<p><strong>HCI involves the design, implementation and evaluation of interactive systems in the context of the user’s task and work.</strong></p>
+<p><em>Reference: Dix et al., p. 3-4</em></p>
 
-      <p>
-        Don Norman is a pioneer in the field of Human–Computer Interaction,
-        known for his work on user-centered design, usability, and cognitive
-        engineering.
-      </p>
-    </section>
-  </main>
+<hr>
 
-  <!-- Footer contains meta or supplementary information -->
-  <footer>
-    <p>&copy; 2026 HCI–CG Course</p>
-  <p>
-    <a href="assignment01.html">Lab 01 Instructions</a> |
-    <a href="https://github.com/humeraaa/hci-cg-2026">Starter Code</a> |
-    <a href="https://humeraaa.github.io/hci-cg-2026/">Live Demo</a>
-  </p>
-  </footer>
+<h2 id="memory">Short-Term Memory & Chunking (Page #29–30)</h2>
+<p>Short-term memory has limited capacity: about 7 ± 2 items. More accurately, we remember 7 ± 2 <strong>chunks</strong>—meaningful groups of information.</p>
+<p><strong>Design implication:</strong> Group related items into chunks so users don't have to memorize long lists.</p>
+<p><em>Reference: Dix et al., p. 29-30</em></p>
+
+<hr>
+
+<h2 id="fitts">Fitts' Law (Chapter 1)</h2>
+<p>The time to hit a target depends on its distance and size. This is formalized as <em>T = a + b log₂(D/S + 1)</em>.</p>
+<p><strong>Design implication:</strong> Make important controls larger and place them closer to reduce selection time.</p>
+<p><em>Reference: Dix et al., Chapter 1</em></p>
+
+<hr>
+
+<p><strong>Book:</strong> Dix, A., Finlay, J., Abowd, G. D., & Beale, R. <em>Human–Computer Interaction</em>.</p>
+<p>© CS-555 HCI – Week 05 | Saad Jamil</p>
 
 </body>
 </html>
